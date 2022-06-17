@@ -1,0 +1,17 @@
+[Unit]
+# You can set the Description for your nextjs-website process.
+Description=next.js website service
+
+[Service]
+Type=simple
+# Make sure you have enough permission to launch nextjs-server process.
+User=root
+Group=root
+# Enter your nextjs project's root-path here. Example: /var/www/nextjs/my-website
+WorkingDirectory=/var/www/nextjs/my-website
+# Enter your npm, yarn or other package-script manager's excute path. 
+ExecStart=/usr/local/bin/npm start
+Restart=always
+RestartSec=3
+StandardOutput=syslog+console
+StandardError=syslog+console
