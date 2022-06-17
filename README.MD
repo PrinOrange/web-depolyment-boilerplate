@@ -1,11 +1,17 @@
-## 网站部署模板
+## WebSite Deployment Boilerplate
 
-本项目给出一些常用的网站部署模板，包括内容如下：
-+ 一些常用的服务器`（nginx\Apache）`的配置文件。并在配置文件中根据不同的需要给出不同的路由和请求回应的解决方案。
-+ 网站的守护进程脚本和部署方案，确保网站进程正常工作。
-+ 一些常用数据库软件`（MySQL\MariaDB\PostgreSQL\SQLite）`的部署方案。
-+ 储存容器的部署方案，如图床、视频床等。
-+ 一些脚本语言（PHP、JSP）的部署方案
+[中文版本](README-ZH.MD)
 
------
-本项目正在日益完善中。一些内容待补充
+---
+
+This project provides some commonly used website deployment templates, including the following:
+
+- Configuration files for some commonly used servers `(nginx\Apache)`. And give different routing and request response solutions according to different needs in the configuration file.
+- Website daemon scripts and deployment schemes to ensure that website processes work properly.
+- Deployment solutions for some common database software, such as `(MySQL\MariaDB\PostgreSQL\SQLite)`.
+- Deployment scheme of storage containers, such as picture beds, video beds, etc.
+- Deployment solutions for some scripting languages (PHP, JSP)
+
+---
+
+To be continued...
